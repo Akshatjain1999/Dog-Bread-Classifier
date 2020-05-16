@@ -39,6 +39,11 @@ pip install glob
 pip instal tqdm
 
 ```
+### My Blog 
+Check my medium blog also where you can suggest new ideas and help me improve.
+```
+https://medium.com/@akshatjain622/dog-breed-classifier-e4bf86cf1f5b
+```
 ### Run
 1. Open the jupyter File to see all my work and approch and feel free to give any suggestions to improve.
 
