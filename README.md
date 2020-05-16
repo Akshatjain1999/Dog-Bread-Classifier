@@ -23,11 +23,11 @@ git clone https://github.com/Akshatjain1999/Dog-Bread-Classifier.git
 cd dog-project
 ```
 
-2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/dogImages`. 
+2. Download the [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).  Unzip the folder and place it in the repo, at location `dog-project/dogImages`. 
 
-3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).  Unzip the folder and place it in the repo, at location `path/to/dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
+3. Download the [human dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip).  Unzip the folder and place it in the repo, at location `dog-project/lfw`.  If you are using a Windows machine, you are encouraged to use [7zip](http://www.7-zip.org/) to extract the folder. 
 
-4. Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `path/to/dog-project/bottleneck_features`.
+4. Download the [VGG-16 bottleneck features](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/DogVGG16Data.npz) for the dog dataset.  Place it in the repo, at location `dog-project/bottleneck_features`.
 
 ### Setup
 1. install all dependencies
@@ -40,4 +40,9 @@ pip instal tqdm
 
 ```
 ### Run
-1. Open the jupyter File to see all my work and approch and feel free to give any suggestions to improve
+1. Open the jupyter File to see all my work and approch and feel free to give any suggestions to improve.
+
+### Result 
+1. Model is able to distinguish between a Dog , Human and other things like car, tree etc.
+2. Model is predicting the names of dog with approx accuray of 82 %.
+3. Model is predicting the name of Dog it resembles the most ,When a human Image is provided.
